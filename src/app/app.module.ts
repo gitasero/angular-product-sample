@@ -19,6 +19,7 @@ import {CartComponent} from './cart/cart.component';
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'products-details', component: ProductListComponent },
+      { path: 'cart', component: CartComponent },
     ])
   ],
   declarations: [
